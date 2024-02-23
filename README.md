@@ -11,4 +11,5 @@ App setup:
 1. With pocketbase running simply ```npm run dev```
 
 ## Design Choices
-1. page.js and PromptForm.js contain the primary business logic. 
+1. page.js and PromptForm.js contain the primary business logic.
+2. CSS modules are used for styling.

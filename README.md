@@ -8,7 +8,8 @@ PocketBase setup:
 3. Open AdminUI, create a new collection with Name: ```responses``` and two text fields: ```prompt``` and ```response```
 
 App setup:
-1. With pocketbase running simply ```npm run dev```
+1. Create a ```.env``` file with one line ```API_KEY=...``` and replace this with an OpenAI chatGPT key.
+2. With pocketbase running simply ```npm run dev```
 
 ## Design Choices
 1. page.js and PromptForm.js contain the primary business logic.

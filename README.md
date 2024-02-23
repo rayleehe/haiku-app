@@ -14,3 +14,4 @@ App setup:
 ## Design Choices
 1. page.js and PromptForm.js contain the primary business logic.
 2. CSS modules are used for styling.
+3. PocketBase used as an easily created local sql-like database. User queries can be viewed at your created collection through ```http://127.0.0.1:8090/_/```

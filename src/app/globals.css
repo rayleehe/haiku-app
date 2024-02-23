@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(237deg, #74AA9C 0.42%, #74AA9C 100.7%);
+    padding: 1rem;
+}

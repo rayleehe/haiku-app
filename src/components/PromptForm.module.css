@@ -1,0 +1,27 @@
+.input {
+    width: 100%;
+    min-height: 50px;
+    max-height: 500px;
+    font-size: 1.4rem;
+    padding: 1rem;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.submitButton {
+    padding: 0.5rem 1rem;
+    border: 0;
+    font-family: inherit;
+    background: #061420;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitButton[disabled] {
+    opacity: 0.5;
+    color: gray;
+}

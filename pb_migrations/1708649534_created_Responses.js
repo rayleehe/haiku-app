@@ -11,7 +11,7 @@ migrate((db) => {
       {
         "system": false,
         "id": "oyr3kvmk",
-        "name": "user_input",
+        "name": "prompt",
         "type": "text",
         "required": false,
         "presentable": false,
@@ -25,7 +25,7 @@ migrate((db) => {
       {
         "system": false,
         "id": "4s5zoozt",
-        "name": "gpt_response",
+        "name": "response",
         "type": "text",
         "required": false,
         "presentable": false,

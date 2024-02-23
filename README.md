@@ -9,3 +9,6 @@ PocketBase setup:
 
 App setup:
 1. With pocketbase running simply ```npm run dev```
+
+## Design Choices
+1. page.js and PromptForm.js contain the primary business logic. 
